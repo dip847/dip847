@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Green - Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            height: 100vh;
+            background: linear-gradient(to bottom, #1f6b08, #2e7d32);
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            width: 350px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .login-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin: 15px 0;
+            font-size: 22px;
+            font-style: italic;
+            color: white;
+        }
+
+        h2 span {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+            font-weight: bold;
+            color: white;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 20px;
+            border: none;
+            background: lightgray;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        .links {
+            margin-top: 15px;
+            font-size: 14px;
+            color: lightgray;
+            text-decoration: italic;
+        }
+
+        .links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+        #deal{
+            margin: 10%;
+        }
+    </style>
+</head>
+<body>
+    <img src="./assets/Business Deal.png" id="deal"/>
+    <div class="login-container">
+        <img src="./assets/undraw_fingerprint-login_19qv (1) 1.png" alt="Go Green Illustration"> <!-- Replace with actual image -->
+        <h2><span>Go Green</span><br>Login</h2>
+        
+        <label for="username">USERNAME</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        
+        <button type="submit" >Submit</button>
+
+        <div class="links">
+            <a href="#">Forgot Password?</a><br>
+            <a href="#">REGISTRATION</a>
+        </div>
+        <button type="button" onclick="window.location.href='page3.html'">Sign Up</button>
+    </div>
+    <img src="./assets/Business Deal.png" id="deal" />
+</body>
+</html>

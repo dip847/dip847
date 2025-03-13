@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Rewards Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('./assets/page4.jpg') no-repeat center center/cover;
+        }
+
+        .form-container {
+            width: 80%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            color: white;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: lightgray;
+            text-align: center;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 60px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            resize: none;
+            background: white;
+        }
+
+        .next-btn {
+            display: block;
+            margin: 20px auto;
+            background: olive;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .next-btn:hover {
+            background: darkolivegreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Fill the form to get <b>Rewards</b></h2>
+
+        <label>Q1) Which eco-friendly habit have you recently adopted?</label>
+        <label>Ans.</label>
+        <textarea placeholder="Type your answer here..."></textarea>
+
+        <label>Q2) How do you ensure minimal waste in your daily life?</label>
+        <label>Ans.</label>
+        <textarea placeholder="Type your answer here..."></textarea>
+
+        <label>Q3) Do you regularly use reusable items (e.g., bags, bottles, containers)?</label>
+        <label>Ans.</label>
+        <textarea placeholder="Type your answer here..."></textarea>
+
+        <button class="next-btn" onclick="window.location.href='page5.html'">Next</button>
+    </div>
+
+</body>
+</html>

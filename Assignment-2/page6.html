@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Page</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #6b8e23, #a2d39b);
+            font-family: Arial, sans-serif;
+            color: black;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            background: linear-gradient(to right, darkgreen, lightgreen);
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-bottom: 2%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .testimonials {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .testimonial b {
+            color: darkgreen;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./assets/page5header.png" style="border-radius: 10px;"/>
+        <div style="align-self: center;margin-left: 30%;">   
+            <h3>Community Page</h3>
+        </div>
+    </div>
+
+    <div class="section-title">What people said about us</div>
+
+    <div class="testimonials" onclick="window.location.href='page7.html'">
+        <div class="testimonial">
+            <b>Name:</b> Rahul Verma <br>
+            <b>Location:</b> Bangalore <br>
+            <b>Quote:</b> "Tracking my eco-habits has become a fun family activity. We've started composting and reduced plastic use by 80%!"<br>
+            <b>Impact:</b> "Earned 150 points and redeemed a reusable water bottle."
+        </div>
+
+        <div class="testimonial">
+            <b>Name:</b> Riya Singh <br>
+            <b>Location:</b> Delhi <br>
+            <b>Quote:</b> "I love the rewards system! It pushes me to try new eco-friendly habits like composting and growing my own veggies."<br>
+            <b>Impact:</b> "Earned 250 points and received a free eco-friendly gardening kit."
+        </div>
+
+        <div class="testimonial">
+            <b>Name:</b> Sarah Khan <br>
+            <b>Location:</b> Mumbai <br>
+            <b>Quote:</b> "I love how this program connects rewards with real impact. It keeps me motivated to live sustainably!"<br>
+            <b>Impact:</b> "Saved 1,000 liters of water and planted 5 trees."
+        </div>
+
+        <div class="testimonial">
+            <b>Name:</b> Mohan Iyer <br>
+            <b>Location:</b> Chennai <br>
+            <b>Quote:</b> "The leaderboard is my favorite feature! Competing with others while saving the planet is fun and fulfilling."<br>
+            <b>Impact:</b> "Ranked #3 this month with 500 points and received a tree-planting certificate."
+        </div>
+
+        <div class="testimonial">
+            <b>Name:</b> Neha Patel <br>
+            <b>Location:</b> Ahmedabad <br>
+            <b>Quote:</b> "Joining this program has been life-changing! I've started using cloth bags, saving water, and encouraging my friends to do the same."<br>
+            <b>Impact:</b> "Reduced plastic waste by 50% and earned a solar-powered charger as a reward."
+        </div>
+
+        <div class="testimonial">
+            <b>Name:</b> Fatima Khan <br>
+            <b>Location:</b> Lucknow <br>
+            <b>Quote:</b> "I've been part of this program for 6 months and already see a positive change in my habits. Plus, the rewards are super cool!"<br>
+            <b>Impact:</b> "Reduced 300 liters of water usage and earned a bamboo cutlery set."
+        </div>
+    </div>
+
+</body>
+</html>

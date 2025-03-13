@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <style>
+        body {
+            background-color: #e5f4e3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            background: linear-gradient(to right, darkgreen, lightgreen);
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .logo {
+            width: 200px;
+        }
+
+        .event-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            margin-top: 0;
+        }
+
+        .event-bg {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .events {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .event-box {
+            background: linear-gradient(to bottom, #7d3c98, #4a235a);
+            color: #b0f2b6;
+            padding: 20px;
+            width: 40%;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .event-box hr {
+            border: 1px solid #fff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="./assets/page5header.png" style="border-radius: 10px;"/>
+        <div style="align-self: center;margin-left: 30%;">   
+            <h3>Upcoming Events</h3>
+        </div>
+    </div>
+
+    <div class="event-container">
+        <img src="./assets/page7.png" alt="Tree Background" class="event-bg" onclick="window.location.href='page8.html'">
+        <div class="events">
+            <div class="event-box">
+                Save Trees
+                <hr>
+                Date: 22 Feb 2025 <br>
+                Location: Ahmedabad
+            </div>
+
+            <div class="event-box">
+                Green Day
+                <hr>
+                Date: 27 Feb 2025 <br>
+                Location: Mumbai
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
