@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHaven</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2b7a0b, #4caf50);
+            text-align: center;
+            color: white;
+        }
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            background: black;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            position: relative;
+        }
+        .logo-container img {
+            width: 80px;
+        }
+        .logo-text {
+            position: absolute;
+            top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .subtext {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8em;
+        }
+        .icon {
+            position: absolute;
+            width: 80px;
+        }
+        .globe {
+            top: 20px;
+            right: 20px;
+        }
+        .person {
+            bottom: 20px;
+            left: 20px;
+        }
+        .play-btn {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            background: gold;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="home" style="margin-right:90%;top: 5%;position:absolute;">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 44V24H30V44M6 18L24 4L42 18V40C42 41.0609 41.5786 42.0783 40.8284 42.8284C40.0783 43.5786 39.0609 44 38 44H10C8.93913 44 7.92172 43.5786 7.17157 42.8284C6.42143 42.0783 6 41.0609 6 40V18Z" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>  
+    </div>
+    <div class="title">Welcome To</div>
+    <div class="logo-container">
+        
+        <img src="./assets/image 1.png" alt="Leaf Logo" style="height: 100%;width: 100%;border-radius: 10px;">  <!-- Replace with actual icon -->
+        
+    </div>
+    <img src="./assets/Globe.png" class="icon globe" alt="Globe Icon" style="height: 30%;width: 30%;">  <!-- Replace with actual icon -->
+    <img src="./assets/Coming Soon - Growth.png" class="icon person" alt="Person Planting" style="height: 30%;width: 30%;">  <!-- Replace with actual icon -->
+    <button class="play-btn" onclick="window.location.href='page2.html'">▶</button>
+</div>
+
+</body>
+</html>
